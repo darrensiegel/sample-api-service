@@ -3,11 +3,13 @@
 This example is an attempt to illustrate how simple it is to build
 a succinct yet fully CRUD capable REST application in Node.js.
 
-In addition to providing standard CRUD routes for each resource, the application
-provides a simple way to add custom routes (and an example of doing so with the
+In addition to automatically providing standard CRUD routes for each resource, the application
+provides an straightforward way to add custom routes (and an example of doing so with the
 authorization check on the `authorization` resource).
 
-This is by no means a production ready application. But even through one would need to incorporate various other features (e.g. schema validation, unified logging, a caching layer, etc.), it is interesting to see what can be done in under 300 lines of JavaScript.
+This is by no means a production ready application. But even through one would need to incorporate various other features
+(e.g. schema validation, unified logging, a caching layer, etc.), it is interesting to see 
+what can be done in under 300 lines of JavaScript.
 
 Furthermore, with a bit of refactoring this could be turned into a reusable 
 framework that could provide the basis for many different applications fronting different
